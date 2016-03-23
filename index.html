@@ -1,13 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <title>A Favorite Thing</title>
-    <meta charset="utf-8" />
-    <link rel="stylesheet" href="style.css" />
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+	<title>Favorite TV Shows</title>
+
+	<!-- Bootstrap -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+	<link rel="stylesheet" href="style.css">
+	<script src="//code.jquery.com/jquery-1.12.0.min.js"></script>
+	<link rel="icon" href="../../favicon.ico">
+
+	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	<!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
 </head>
+
 <body>
 
-    <p>Replace me with your code.</p>
+	<div class="jumbotron">
+		<div class="container">
+			<h1>Favorite TV Shows</h1>
+			<p>This page shows a list of my favorite TV Shows</p>
+		</div>
+	</div>
 
+	<section id="content">
+
+		<!-- Container for the favorite things -->
+		<div class="container">
+
+			<div id="fav-things">
+
+				<!-- Three columns of text below main title -->
+				<div class="row">
+					<div class="col-lg-4">
+						<img class="img-rounded" src="Images/Friends.jpg" alt="Friends" width="140" height="140">
+						<h2>Friends</h2>
+						<p><a class="btn btn-default" id="friends" role="button">View details</a></p>
+						
+					</div>
+					<!-- /.col-lg-4 -->
+
+					<div class="col-lg-4">
+						<img class="img-rounded" src="Images/Seinfeld.jpeg" alt="Seinfeld" width="140" height="140">
+						<h2>Seinfeld</h2>
+						<p><a class="btn btn-default" id="seinfeld" role="button">View details</a></p>
+					</div>
+					<!-- /.col-lg-4 -->
+
+					<div class="col-lg-4">
+						<img class="img-rounded" src="Images/Simpsons.jpg" alt="Simpsons" width="140" height="140">
+						<h2>The Simpsons</h2>
+						<p><a class="btn btn-default" id="simpsons" role="button">View details</a></p>
+					</div>
+					<!-- /.col-lg-4 -->
+				</div>
+				<!-- /.row -->
+
+				<!-- Three columns of text below main title -->
+				<div class="row">
+					<div class="col-lg-4">
+						<img class="img-rounded" src="Images/Office.jpg" alt="Friends" width="140" height="140">
+						<h2>The Office</h2>
+						<p><a class="btn btn-default" id="office" role="button">View details</a></p>
+					</div>
+					<!-- /.col-lg-4 -->
+
+					<div class="col-lg-4">
+						<img class="img-rounded" src="Images/BigBang.jpg" alt="Friends" width="140" height="140">
+						<h2>The Big Bang Theory</h2>
+						<p><a class="btn btn-default" id="big"  role="button">View details</a></p>
+					</div>
+					<!-- /.col-lg-4 -->
+
+					<div class="col-lg-4">
+						<img class="img-rounded" src="Images/Raymond.jpg" alt="Friends" width="140" height="140">
+						<h2>Everybody Loves Raymond</h2>
+						<p><a class="btn btn-default" id="ray" role="button">View details</a></p>
+					</div>
+					<!-- /.col-lg-4 -->
+				</div>
+				<!-- /.row -->
+
+			</div>
+			<!-- fav-things -->
+
+		</div>
+		<!-- /.container -->
+	</section>
+
+	<!JavaScript file -->
+	<script src="js/script.js"></script>
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<!-- Include all compiled plugins (below), or include individual files as needed -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 </body>
+
 </html>

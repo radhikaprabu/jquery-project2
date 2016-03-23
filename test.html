@@ -1,13 +1,312 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <title>A Favorite Thing</title>
-    <meta charset="utf-8" />
-    <link rel="stylesheet" href="style.css" />
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+	<title>Favorite TV Shows</title>
+
+	<!-- Bootstrap -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+	<link rel="stylesheet" href="style.css">
+	<script src="//code.jquery.com/jquery-1.12.0.min.js"></script>
+	<link rel="icon" href="../../favicon.ico">
+
+	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	<!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
 </head>
+
 <body>
+	<div class="jumbotron">
+		<div class="container">
+			<h1>Favorite TV Shows</h1>
+			<p>This page shows a list of my favorite TV Shows</p>
+		</div>
+	</div>
 
-    <p>Replace me with your codes.</p>
+	<!-- Container for the favorite things -->
+	<div class="container fav-things">
 
+		<!-- Three columns of text below main title -->
+		<div class="row">
+
+			<div class="col-lg-4">
+				<img class="img-rounded" src="Images/Friends.jpg" alt="Friends" width="140" height="140">
+				<h2>Friends</h2>
+				<p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+				<p>Three young men and three young women - of the BFF kind - live in the same apartment complex and face life and love in New York. They're not above sticking their noses into one another's businesses and swapping romantic partners, which always leads to the kind of hilarity average people will never experience - especially during breakups.</p>
+				<table class="table table-bordered">
+					<tr>
+						<th rowspan="6">Cast</th>
+						<td>Jennifer Anniston</td>
+					</tr>
+					<tr>
+						<td>Courtney Cox</td>
+					</tr>
+					<tr>
+						<td>Lisa Kudrow</td>
+					</tr>
+					<tr>
+						<td>Matt Leblanc</td>
+					</tr>
+					<tr>
+						<td>Mathew Perry</td>
+					</tr>
+					<tr>
+						<td>David Schwimmer</td>
+					</tr>
+					<tr>
+						<th>No. of Seasons</th>
+						<td>10</td>
+					</tr>
+					<tr>
+						<th>No. of Episodes</th>
+						<td>236</td>
+					</tr>
+					<tr>
+						<th>Original Release</th>
+						<td>September 22, 1994 – May 6, 2004</td>
+					</tr>
+				</table>
+			</div>
+			<!-- /.col-lg-4 -->
+
+			<div class="col-lg-4">
+				<img class="img-rounded" src="Images/Seinfeld.jpeg" alt="Seinfeld" width="140" height="140">
+				<h2>Seinfeld</h2>
+				<p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+				<p>Four single friends -- comic Jerry Seinfeld, bungling George Costanza, frustrated working gal Elaine Benes and eccentric neighbor Cosmo Kramer -- deal with the absurdities of everyday life in New York City.</p>
+				<table class="table table-bordered">
+					<tr>
+						<th rowspan="4">Cast</th>
+						<td>Jerry Seinfeld
+						</td>
+					</tr>
+					<tr>
+						<td>Julia Louis-Dreyfus</td>
+					</tr>
+					<tr>
+						<td>Michael Richards</td>
+					</tr>
+					<tr>
+						<td>Jason Alexander</td>
+					</tr>
+
+					<tr>
+						<th>No. of Seasons</th>
+						<td>9</td>
+					</tr>
+					<tr>
+						<th>No. of Episodes</th>
+						<td>180</td>
+					</tr>
+					<tr>
+						<th>Original Release</th>
+						<td>July 5, 1989 – May 14, 1998</td>
+					</tr>
+				</table>
+			</div>
+			<!-- /.col-lg-4 -->
+
+			<div class="col-lg-4">
+				<img class="img-rounded" src="Images/Simpsons.jpg" alt="Simpsons" width="140" height="140">
+				<h2>The Simpsons</h2>
+				<p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+				<p>This long-running animated comedy focuses on the eponymous family in the town of Springfield in an unnamed U.S. state. The head of the Simpson family, Homer, is not a typical family man. A nuclear-plant employee, he does his best to lead his family but often finds that they are leading him. The family includes loving, blue-haired matriarch Marge, troublemaking son Bart, overachieving daughter Lisa and baby Maggie. </p>
+				<table class="table table-bordered">
+					<tr>
+						<th rowspan="6">Voices Of</th>
+						<td>
+							Dan Castellaneta
+						</td>
+					</tr>
+					<tr>
+						<td>Julie Kavner</td>
+					</tr>
+					<tr>
+						<td>Nancy Cartwright</td>
+					</tr>
+					<tr>
+						<td>Yeardley Smith</td>
+					</tr>
+					<tr>
+						<td>Hank Azaria</td>
+					</tr>
+					<tr>
+						<td>Harry Shearer</td>
+					</tr>
+
+					<tr>
+						<th>No. of Seasons</th>
+						<td>27</td>
+					</tr>
+					<tr>
+						<th>No. of Episodes</th>
+						<td>590</td>
+					</tr>
+					<tr>
+						<th>Original Release</th>
+						<td>December 17, 1989 – present</td>
+					</tr>
+				</table>
+			</div>
+			<!-- /.col-lg-4 -->
+
+		</div>
+		<!-- /.row -->
+
+		<!-- Three more columns of text -->
+		<div class="row">
+
+			<div class="col-lg-4">
+				<img class="img-rounded" src="Images/Office.jpg" alt="Office" width="140" height="140">
+				<h2>The Office</h2>
+				<p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+				<p>This U.S. adaptation -- set at a paper company in Scranton, Pa. -- has a similar documentary style to that of the Ricky Gervais-led British original. It features the Dunder-Mifflin staff, which includes characters based on roles in the British show -- and, quite possibly, people with whom you work in your office.</p>
+				<table class="table table-bordered">
+					<tr>
+						<th rowspan="6">Cast</th>
+						<td>
+							Steve Carell
+						</td>
+					</tr>
+					<tr>
+						<td>Rainn Wilson</td>
+					</tr>
+					<tr>
+						<td>John Krasinski</td>
+					</tr>
+					<tr>
+						<td>Jenna Fischer</td>
+					</tr>
+					<tr>
+						<td>B. J. Novak</td>
+					</tr>
+					<tr>
+						<td>Ed Helms</td>
+					</tr>
+					<tr>
+						<th>No. of Seasons</th>
+						<td>9</td>
+					</tr>
+					<tr>
+						<th>No. of Episodes</th>
+						<td>201</td>
+					</tr>
+					<tr>
+						<th>Original Release</th>
+						<td>March 24, 2005 – May 16, 2013</td>
+					</tr>
+				</table>
+			</div>
+			<!-- /.col-lg-4 -->
+
+
+			<div class="col-lg-4">
+				<img class="img-rounded" src="Images/BigBang.jpg" alt="BigBang" width="140" height="140">
+				<h2>The Big Bang Theory</h2>
+				<p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+				<p>Mensa-fied best friends and roommates Leonard and Sheldon, physicists who work at the California Institute of Technology, may be able to tell everybody more than they want to know about quantum physics, but getting through most basic social situations, especially ones involving women, totally baffles them. </p>
+				<table class="table table-bordered">
+					<tr>
+						<th rowspan="6">Cast</th>
+						<td>
+							Johnny Galecki
+						</td>
+					</tr>
+					<tr>
+						<td>Jim Parsons</td>
+					</tr>
+					<tr>
+						<td>Kaley Cuoco</td>
+					</tr>
+					<tr>
+						<td>Simon Helberg</td>
+					</tr>
+					<tr>
+						<td>Kunal Nayyar</td>
+					</tr>
+					<tr>
+						<td>Sara Gilbert</td>
+					</tr>
+					<tr>
+						<th>No. of Seasons</th>
+						<td>9</td>
+					</tr>
+					<tr>
+						<th>No. of Episodes</th>
+						<td>201</td>
+					</tr>
+					<tr>
+						<th>Original Release</th>
+						<td>September 24, 2007 – present</td>
+					</tr>
+				</table>
+			</div>
+			<!-- /.col-lg-4 -->
+
+
+			<div class="col-lg-4">
+				<img class="img-rounded" src="Images/Raymond.jpg" alt="Raymond" width="140" height="140">
+				<h2>Everybody Loves Raymond</h2>
+				<p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+				<p>Ray Barone is a successful sports writer and family man who deals with a brother and parents -- who happen to live across the street. Mom Marie loves to meddle in his life, while older brother Robert sometimes resents his success, and Dad Frank just makes comments and raids the fridge. Nevertheless, Ray manages to keep a bright outlook and a sense of humor, leaving the hard issues to his more-practical wife, Debra.</p>
+				<table class="table table-bordered">
+					<tr>
+						<th rowspan="6">Cast</th>
+						<td>
+							Ray Romano
+						</td>
+					</tr>
+					<tr>
+						<td>Patricia Heaton</td>
+					</tr>
+					<tr>
+						<td>Brad Garrett</td>
+					</tr>
+					<tr>
+						<td>Doris Roberts</td>
+					</tr>
+					<tr>
+						<td>Peter Boyle</td>
+					</tr>
+					<tr>
+						<td>Monica Horan</td>
+					</tr>
+					<tr>
+						<th>No. of Seasons</th>
+						<td>9</td>
+					</tr>
+					<tr>
+						<th>No. of Episodes</th>
+						<td>210</td>
+					</tr>
+					<tr>
+						<th>Original Release</th>
+						<td>September 13, 1996 – May 16, 2005</td>
+					</tr>
+				</table>
+			</div>
+			<!-- /.col-lg-4 -->
+
+		</div>
+		<!-- /.row -->
+
+	</div>
+	<!-- /.container fav-things -->
+
+	<!JavaScript file -->
+	<script src="js/script.js"></script>
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<!-- Include all compiled plugins (below), or include individual files as needed -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 </body>
+
 </html>

@@ -1,0 +1,99 @@
+{
+	"friends": [
+		{
+			"description": "Three young men and three young women - of the BFF kind - live in the same apartment complex and face life and love in New York. They're not above sticking their noses into one another's businesses and swapping romantic partners, which always leads to the kind of hilarity average people will never experience - especially during breakups.",
+			"detail": {
+				"castLabel": "Cast",
+				"cast": ["Jennifer Aniston", "Courtney Cox", "Lisa Kudrow", "Matt Leblanc", "Mathew Perry", "David Schwimmer"],
+				"seasonsLabel": "No. of Seasons",
+				"noOfSeason": "10",
+				"episodeLabel": "No. of Episodes",
+				"noOfEpisodes": "236",
+				"releaseLabel": "Original Release",
+				"originalRelease": "September 22, 1994 – May 6, 2004"
+			}
+		}
+	],
+
+	"seinfeld": [
+		{
+			"description": "Four single friends -- comic Jerry Seinfeld, bungling George Costanza, frustrated working gal Elaine Benes and eccentric neighbor Cosmo Kramer -- deal with the absurdities of everyday life in New York City.",
+			"detail": [
+				{
+					"castLabel": "Cast",
+					"cast": ["Jerry Seinfeld", "Julia Louis-Dreyfus", "Michael Richards", "Jason Alexander"],
+					"seasonsLabel": "No. of Seasons",
+					"noOfSeason": "9",
+					"episodeLabel": "No. of Episodes",
+					"noOfEpisodes": "180",
+					"releaseLabel": "Original Release",
+					"originalRelease": "July 5, 1989 – May 14, 1998"
+				}
+					]
+		}
+	],
+
+	"simpsons": [
+		{
+			"description": "This long-running animated comedy focuses on the eponymous family in the town of Springfield in an unnamed U.S. state. The head of the Simpson family, Homer, is not a typical family man. A nuclear-plant employee, he does his best to lead his family but often finds that they are leading him. The family includes loving, blue-haired matriarch Marge, troublemaking son Bart, overachieving daughter Lisa and baby Maggie.",
+			"detail": {
+				"castLabel": "Cast",
+				"cast": ["Dan Castellaneta", "Julie Kavner", "Nancy Cartwright", "Yeardley Smith", "Hank Azaria", "Harry Shearer"],
+				"seasonsLabel": "No. of Seasons",
+				"noOfSeason": "27",
+				"episodeLabel": "No. of Episodes",
+				"noOfEpisodes": "590",
+				"releaseLabel": "Original Release",
+				"originalRelease": "December 17, 1989 – present"
+			}
+		}
+	],
+
+	"office": [
+		{
+			"description": "This U.S. adaptation -- set at a paper company in Scranton, Pa. -- has a similar documentary style to that of the Ricky Gervais-led British original. It features the Dunder-Mifflin staff, which includes characters based on roles in the British show -- and, quite possibly, people with whom you work in your office.",
+			"detail": {
+				"castLabel": "Cast",
+				"cast": ["Steve Carell", "Rainn Wilson", "John Krasinski", "Jenna Fischer", "B. J. Novak", "Ed Helms"],
+				"seasonsLabel": "No. of Seasons",
+				"noOfSeason": "9",
+				"episodeLabel": "No. of Episodes",
+				"noOfEpisodes": "201",
+				"releaseLabel": "Original Release",
+				"originalRelease": "March 24, 2005 – May 16, 2013"
+			}
+		}
+	],
+
+	"big": [
+		{
+			"description": "Mensa-fied best friends and roommates Leonard and Sheldon, physicists who work at the California Institute of Technology, may be able to tell everybody more than they want to know about quantum physics, but getting through most basic social situations, especially ones involving women, totally baffles them. ",
+			"detail": {
+				"castLabel": "Cast",
+				"cast": ["Johnny Galecki", "Jim Parsons", "Kaley Cuoco", "Simon Helberg", "Kunal Nayyar", "Sara Gilbert"],
+				"seasonsLabel": "No. of Seasons",
+				"noOfSeason": "9",
+				"episodeLabel": "No. of Episodes",
+				"noOfEpisodes": "201",
+				"releaseLabel": "Original Release",
+				"originalRelease": "September 24, 2007 – present"
+			}
+		}
+	],
+
+	"ray": [
+		{
+			"description": "Ray Barone is a successful sports writer and family man who deals with a brother and parents -- who happen to live across the street. Mom Marie loves to meddle in his life, while older brother Robert sometimes resents his success, and Dad Frank just makes comments and raids the fridge. Nevertheless, Ray manages to keep a bright outlook and a sense of humor, leaving the hard issues to his more-practical wife, Debra.",
+			"detail": {
+				"castLabel": "Cast",
+				"cast": ["Ray Romano", "Patricia Heaton", "Brad Garrett", "Doris Roberts", "Peter Boyle", "Monica Horan"],
+				"seasonsLabel": "No. of Seasons",
+				"noOfSeason": "9",
+				"episodeLabel": "No. of Episodes",
+				"noOfEpisodes": "210",
+				"releaseLabel": "Original Release",
+				"originalRelease": "September 13, 1996 – May 16, 2005"
+			}
+		}
+	]
+}
